@@ -112,7 +112,21 @@ a:hover, button:hover {
     transform: scale(1.05);
 }
 
-footer h2{
-    align-items: center;
+footer{
+    
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+    width: 100%;
+}
+
+footer a{
+    color: #4CAF50;
+    font-size: 1.2em;
+    text-decoration: none;
+    padding: 8px 12px;
+    transition: color 0.3s, background-color 0.3s;
 }
 
