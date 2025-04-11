@@ -1,4 +1,4 @@
-/* Importando a fonte do Google Fonts */
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #fafafa;
@@ -10,24 +10,9 @@ body {
     
     justify-content: flex-start;
     min-height: 100vh;
-}
-
-/* Estilizando o Cabeçalho */
-header {
-    background: linear-gradient(to right, #4CAF50, #8BC34A);
-    padding: 20px;
-    text-align: center;
-    width: 100%;
-    margin-bottom: 20px;
-}
-header h1 {
-    color: white;
-    font-size: 2.5em;
-    margin: 0;
-}
-
-/* Estilizando a parte central da página */
-main {
+ }
+ 
+ main {
     padding: 40px 30px;
     background-color: #f4f4f4;
     border-radius: 10px;
@@ -35,41 +20,32 @@ main {
     margin: 20px;
     max-width: 1200px;
     width: 100%;
-}
-
-/* Seções */
-section {
+ }
+ 
+ /* Seções */
+ section {
     margin-bottom: 30px;
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-section h2 {
+ }
+ 
+ section h2 {
     font-family: 'Roboto', sans-serif;
     color: #333;
     font-size: 2em;
     margin-bottom: 10px;
-}
-
-section p, section ul {
-    font-size: 1.1em;
-    line-height: 1.6;
-    color: #555;
-    margin-bottom: 15px;
-}
-
-
-
-/* Estilizando as listas */
-ul {
-    list-style-type: disc;
-    margin-left: 20px;
-}
-
-/* Links de navegação */
-nav a {
+    }
+ 
+    section p, section ul {
+       font-size: 1.1em;
+       line-height: 1.6;
+       color: #555;
+       margin-bottom: 15px;
+   }
+ 
+   nav a {
     color: #333;
     font-size: 1.2em;
     text-decoration: none;
@@ -77,34 +53,38 @@ nav a {
     margin: 5px;
     border-radius: 5px;
     transition: color 0.3s, background-color 0.3s;
-}
-
-nav a:hover {
+ }
+ nav a:hover {
     color: #fff;
     background-color: #4CAF50;
-}
-button a{
-    color: white;
-    text-decoration: none;
-}
-.Botão{
+ }
+ 
+ ol li{
+    border-radius: 50%;
+    box-shadow: #4CAF50;
+ }
+ 
+ .Botão{
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     width: 140px;
     margin-right: 20%;
     border-radius: 20px;
-    background-color: #4CAF50
-    
-    
-    
-}
-
-/* Responsividade para dispositivos móveis */
-@media (max-width: 500px) {
+    background-color: #4CAF50 
+ }
+ 
+ button a{
+    text-decoration: none;
+    color: white;
+ }
+ 
+ /* Responsividade para dispositivos móveis */
+ @media (max-width: 800px) {
     header h1 {
         font-size: 4em;
     }
     nav a {
-        font-size: 1.6em;
+        font-size: 1.8em;
     }
     main {
         padding: 40px;
@@ -112,16 +92,17 @@ button a{
     section {
         margin-bottom: 40px;
     }
-}
-
-/* Efeito de transição nos links */
-a, button {
+ }
+ 
+ /* Efeito de transição nos links */
+ a, button {
     transition: transform 0.3s ease, background-color 0.3s ease;
-}
-a:hover, button:hover {
+ }
+ a:hover, button:hover {
     transform: scale(1.05);
-}
-
-footer{
+ }
+ 
+ footer{
     color: white;
-}
+ }
+ 

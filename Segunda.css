@@ -12,18 +12,8 @@ body {
     min-height: 100vh;
 }
 
-/* Estilizando o Cabeçalho */
-header {
-    background: linear-gradient(to right, #4CAF50, #8BC34A);
-    padding: 20px;
-    text-align: center;
-    width: 100%;
-    margin-bottom: 20px;
-}
-header h1 {
-    color: white;
-    font-size: 2.5em;
-    margin: 0;
+header{
+    text-decoration: none;
 }
 
 /* Estilizando a parte central da página */
@@ -122,6 +112,7 @@ a:hover, button:hover {
     transform: scale(1.05);
 }
 
-footer{
-    color: white;
+footer h2{
+    align-items: center;
 }
+
